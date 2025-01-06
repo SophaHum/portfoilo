@@ -21,7 +21,7 @@ export default function Home() {
             transition={{ delay: 0.3, duration: 0.8 }}
           >
             <h1 className="text-4xl sm:text-6xl font-bold mb-4">
-              HELLO, I'M{" "}
+              HELLO, I&apos;M{" "}
               <div className="mt-2">
                 <motion.span 
                   className="text-pink-500"

@@ -35,7 +35,6 @@ export default function RootLayout({
           defaultTheme="dark"
           enableSystem={false}
           disableTransitionOnChange
-          suppressHydrationWarning
         >
           <div className="relative flex min-h-screen flex-col bg-gradient-light">
             <Header />
