@@ -49,7 +49,7 @@ const projects: Project[] = [
       { name: "TypeScript", color: "bg-teal-700" },
       { name: "PostgreSQL", color: "bg-teal-700" }
     ],
-    githubUrl: "https://github.com/SophaHum/user-management"
+    githubUrl: "https://github.com/SophaHum/Golang-NextJs_User_Management_Applicationa"
   },
   {
     title: "Learning Hub",
@@ -64,28 +64,37 @@ const projects: Project[] = [
     githubUrl: "https://github.com/SophaHum/learning-hub"
   },
   {
-    title: "Laravel React Integration",
+    title: "Sass Start Kit",
     titleColor: "text-purple-500",
-    description: "Full-stack web application showcasing Laravel and React integration.",
+    description: "SaaS Start kit is a SaaS starter kit (boilerplate) that comes packed with all components required to run a modern SaaS software.",
     technologies: [
-      { name: "PHP", color: "bg-teal-700" },
       { name: "Laravel", color: "bg-teal-700" },
-      { name: "React", color: "bg-teal-700" },
-      { name: "MySQL", color: "bg-teal-700" }
+      { name: "Livewire", color: "bg-teal-700" },
+      { name: "Tailwind CSS", color: "bg-teal-700" },
+      { name: "Postgresql", color: "bg-teal-700" }
     ],
-    githubUrl: "https://github.com/SophaHum/laravel-react"
+    githubUrl: "https://github.com/SophaHum/saas-start-kit"
   },
   {
-    title: "Vue.js CRUD with Supabase",
+    title: "Full Stack DevOps Pipeline",
     titleColor: "text-purple-500",
-    description: "CRUD application built with Vue.js and Supabase backend.",
+    description: "A modern, responsive real-time chat application built with a comprehensive DevOps infrastructure, implementing industry best practices for deployment, scaling, and monitoring.",
     technologies: [
-      { name: "Vue.js", color: "bg-teal-700" },
-      { name: "Supabase", color: "bg-teal-700" },
-      { name: "JavaScript", color: "bg-teal-700" },
-      { name: "SQL", color: "bg-teal-700" }
+      { name: "Nuxt js", color: "bg-teal-700" },
+      { name: "Express js", color: "bg-teal-700" },
+      { name: "Tailwind css", color: "bg-teal-700" },
+      { name: "MongoDB", color: "bg-teal-700" },
+      { name: "Docker", color: "bg-teal-700" },
+      { name: "Kubernetes", color: "bg-teal-700" },
+      { name: "Jenkins", color: "bg-teal-700" },
+      { name: "Prometheus", color: "bg-teal-700" },
+      { name: "Grafana", color: "bg-teal-700" },
+      { name: "Socket.io for WebSocket", color: "bg-teal-700" },
+      { name: "Nginx", color: "bg-teal-700" },
+      { name: "Github Actions", color: "bg-teal-700" },
+      { name:"Redis for caching", color: "bg-teal-700" }
     ],
-    githubUrl: "https://github.com/SophaHum/crud-supabase-vue-js"
+    githubUrl: "https://github.com/SophaHum/full-stack-ci-cd"
   }
 ];
 
