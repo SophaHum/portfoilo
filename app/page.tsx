@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900">
+    <div className="min-h-screen bg-slate-200 dark:bg-gradient-to-br dark:from-gray-900 dark:via-purple-900 dark:to-violet-900">
       {/* Hero Section */}
       <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen px-4 lg:px-20">
         <motion.div 
@@ -20,18 +20,18 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            <h1 className="text-4xl sm:text-6xl font-bold mb-4">
+            <h1 className="text-gray-800 dark:text-white text-4xl sm:text-6xl font-bold mb-4">
               HELLO, I&apos;M{" "}
               <div className="mt-2">
                 <motion.span 
-                  className="text-pink-500"
+                  className="text-pink-600 dark:text-pink-500"
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   HUM
                 </motion.span>{" "}
                 <motion.span 
-                  className="text-purple-500"
+                  className="text-purple-600 dark:text-purple-500"
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
@@ -42,7 +42,7 @@ export default function Home() {
           </motion.div>
 
           <motion.p 
-            className="text-lg sm:text-xl mb-8 text-gray-200"
+            className="text-lg sm:text-xl mb-8 text-gray-600 dark:text-gray-200"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
@@ -71,14 +71,14 @@ export default function Home() {
                 <motion.div 
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="border-2 border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white px-6 py-3 rounded-full cursor-pointer transition-colors duration-300"
+                  className="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-6 py-3 rounded-full cursor-pointer transition-colors duration-300"
                 >
                   Download CV
                 </motion.div>
               </Link>
             </div>
-            <div className="flex items-center space-x-2 text-gray-300">
-              <div className="h-1 w-10 bg-purple-500"></div>
+            <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-300">
+              <div className="h-1 w-10 bg-purple-600"></div>
               <span>Software Engineer</span>
             </div>
           </motion.div>

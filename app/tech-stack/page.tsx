@@ -36,10 +36,10 @@ export default function TechStack() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900">
+    <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-gray-900 dark:via-purple-900 dark:to-violet-900">
       <div className="container py-8 md:py-12">
         <div className="space-y-8">
-          <h1 className="text-4xl font-bold text-center mb-12 text-white">
+          <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">
             Tech Stack
           </h1>
 

@@ -137,6 +137,21 @@
   .animate-gradient {
     animation: moveGradient 4s infinite linear;
   }
+
+  .animate-gradient-text {
+    background-size: 200% auto;
+    animation: textGradient 8s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-600 via-pink-500 to-blue-600 dark:from-purple-400 dark:via-pink-300 dark:to-blue-400;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }
 
 @keyframes moveGradient {
@@ -145,6 +160,18 @@
   }
   50% {
     background-position: 150% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes textGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
   }
   100% {
     background-position: 0% 50%;

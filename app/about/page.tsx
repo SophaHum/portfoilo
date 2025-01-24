@@ -27,10 +27,10 @@ const socialLinks: SocialLink[] = [
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900">
+    <div className="min-h-screen bg-gray-200 dark:bg-gradient-to-br dark:from-gray-900 dark:via-purple-900 dark:to-violet-900">
       <div className="container py-8 md:py-12">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-center text-white mb-12">
+          <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">
             About Me
           </h1>
           
@@ -70,7 +70,8 @@ const AboutPage: React.FC = () => {
               </div>
 
               <div className="border-t border-gray-700 pt-8">
-                <h2 className="text-2xl font-semibold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-violet-500">
+                {/* support light mode text */}
+                <h2 className="text-2xl font-semibold text-white mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-violet-500">
                   Connect With Me
                 </h2>
                 <div className="flex space-x-6">

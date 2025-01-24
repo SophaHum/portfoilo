@@ -100,11 +100,11 @@ const projects: Project[] = [
 
 function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 p-6 rounded-lg hover:bg-gray-700/50 transition-all">
+    <div className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm border border-gray-200 dark:border-gray-700 p-6 rounded-lg hover:bg-gray-50/50 dark:hover:bg-gray-700/50 transition-all">
       <h3 className={`text-2xl font-semibold mb-2 ${project.titleColor}`}>
         {project.title}
       </h3>
-      <p className="text-gray-200 mb-4">{project.description}</p>
+      <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
       <div className="flex flex-wrap gap-2 mb-4">
         {project.technologies.map((tech, index) => (
           <span
@@ -119,7 +119,7 @@ function ProjectCard({ project }: { project: Project }) {
         href={project.githubUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center text-gray-200 hover:text-purple-400 transition-colors"
+        className="inline-flex items-center text-gray-600 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-400 transition-colors"
       >
         <FaGithub className="mr-2" />
         View on GitHub
@@ -130,9 +130,9 @@ function ProjectCard({ project }: { project: Project }) {
 
 export default function WorkPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900">
+    <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-gray-900 dark:via-purple-900 dark:to-violet-900">
       <div className="container py-8 md:py-12">
-        <h1 className="text-4xl font-bold text-center mb-12 text-white">
+        <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">
           My Work
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
